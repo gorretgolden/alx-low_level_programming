@@ -1,20 +1,20 @@
 #include <stdio.h>
+
 /**
- *main - prints alphabet in lowwercase
+ * main - prints alphabet in lowwercase
  *
- *   Return: Always 0 (Success)
+ * Return: 0 (success)
  */
 int main(void)
 {
 
-	char a='a';
+	char a = 'a';
 
 	while (a <= 'z')
 	{
 		putchar(a);
 		a++;
 	}
-	
 	putchar('\n');
 	return (0);
 }
